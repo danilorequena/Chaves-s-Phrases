@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		FF2F4B5E23C3BBE100B08413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F4B5D23C3BBE100B08413 /* AppDelegate.swift */; };
 		FF2F4B6023C3BBE100B08413 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F4B5F23C3BBE100B08413 /* SceneDelegate.swift */; };
-		FF2F4B6223C3BBE100B08413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F4B6123C3BBE100B08413 /* ViewController.swift */; };
 		FF2F4B6523C3BBE100B08413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B6323C3BBE100B08413 /* Main.storyboard */; };
 		FF2F4B6723C3BBE800B08413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B6623C3BBE800B08413 /* Assets.xcassets */; };
 		FF2F4B6A23C3BBE800B08413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B6823C3BBE800B08413 /* LaunchScreen.storyboard */; };
+		FF2F4B7523C3E8A800B08413 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F4B7423C3E8A700B08413 /* QuotesViewController.swift */; };
+		FF2F4B7923C3E93800B08413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F4B7823C3E93800B08413 /* ViewController.swift */; };
+		FF2F4B7B23C3E96400B08413 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F4B7A23C3E96400B08413 /* SettingsViewController.swift */; };
+		FF2F4B7F23C3EE9F00B08413 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F4B7E23C3EE9F00B08413 /* Quote.swift */; };
+		FF2F4B8123C3EEDD00B08413 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F4B8023C3EEDD00B08413 /* QuotesManager.swift */; };
+		FF2F4B8323C3EF2800B08413 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F4B8223C3EF2800B08413 /* Configuration.swift */; };
+		FF2F4B8823C3F3EF00B08413 /* alma-negra.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B8423C3F3EF00B08413 /* alma-negra.png */; };
+		FF2F4B8923C3F3EF00B08413 /* kiko.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B8523C3F3EF00B08413 /* kiko.png */; };
+		FF2F4B8A23C3F3EF00B08413 /* seu-madruga.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B8623C3F3EF00B08413 /* seu-madruga.png */; };
+		FF2F4B8B23C3F3EF00B08413 /* chapolin-colorado.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B8723C3F3EF00B08413 /* chapolin-colorado.png */; };
+		FF2F4B8C23C3FF2D00B08413 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B7223C3C60F00B08413 /* quotes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF2F4B5A23C3BBE100B08413 /* FrasesChaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrasesChaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2F4B5D23C3BBE100B08413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF2F4B5F23C3BBE100B08413 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF2F4B6123C3BBE100B08413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF2F4B6423C3BBE100B08413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF2F4B6623C3BBE800B08413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF2F4B6923C3BBE800B08413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF2F4B6B23C3BBE800B08413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2F4B7223C3C60F00B08413 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = quotes.json; path = "../../../../../Downloads/Arquivos Pensamentos/quotes.json"; sourceTree = "<group>"; };
+		FF2F4B7423C3E8A700B08413 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		FF2F4B7823C3E93800B08413 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
+		FF2F4B7A23C3E96400B08413 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FF2F4B7E23C3EE9F00B08413 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		FF2F4B8023C3EEDD00B08413 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		FF2F4B8223C3EF2800B08413 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		FF2F4B8423C3F3EF00B08413 /* alma-negra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alma-negra.png"; path = "../../../../../Documents/images_projects/alma-negra.png"; sourceTree = "<group>"; };
+		FF2F4B8523C3F3EF00B08413 /* kiko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiko.png; path = ../../../../../Documents/images_projects/kiko.png; sourceTree = "<group>"; };
+		FF2F4B8623C3F3EF00B08413 /* seu-madruga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "seu-madruga.png"; path = "../../../../../Documents/images_projects/seu-madruga.png"; sourceTree = "<group>"; };
+		FF2F4B8723C3F3EF00B08413 /* chapolin-colorado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chapolin-colorado.png"; path = "../../../../../Documents/images_projects/chapolin-colorado.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +78,55 @@
 			children = (
 				FF2F4B5D23C3BBE100B08413 /* AppDelegate.swift */,
 				FF2F4B5F23C3BBE100B08413 /* SceneDelegate.swift */,
-				FF2F4B6123C3BBE100B08413 /* ViewController.swift */,
-				FF2F4B6323C3BBE100B08413 /* Main.storyboard */,
+				FF2F4B7123C3C5F800B08413 /* Files */,
+				FF2F4B7723C3E8C900B08413 /* Views */,
+				FF2F4B7623C3E8B400B08413 /* Controllers */,
+				FF2F4B7D23C3EE8000B08413 /* Models */,
 				FF2F4B6623C3BBE800B08413 /* Assets.xcassets */,
-				FF2F4B6823C3BBE800B08413 /* LaunchScreen.storyboard */,
 				FF2F4B6B23C3BBE800B08413 /* Info.plist */,
 			);
 			path = FrasesChaves;
+			sourceTree = "<group>";
+		};
+		FF2F4B7123C3C5F800B08413 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF2F4B8423C3F3EF00B08413 /* alma-negra.png */,
+				FF2F4B8723C3F3EF00B08413 /* chapolin-colorado.png */,
+				FF2F4B8523C3F3EF00B08413 /* kiko.png */,
+				FF2F4B8623C3F3EF00B08413 /* seu-madruga.png */,
+				FF2F4B7223C3C60F00B08413 /* quotes.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		FF2F4B7623C3E8B400B08413 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF2F4B7823C3E93800B08413 /* ViewController.swift */,
+				FF2F4B7A23C3E96400B08413 /* SettingsViewController.swift */,
+				FF2F4B7423C3E8A700B08413 /* QuotesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF2F4B7723C3E8C900B08413 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF2F4B6323C3BBE100B08413 /* Main.storyboard */,
+				FF2F4B6823C3BBE800B08413 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF2F4B7D23C3EE8000B08413 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF2F4B7E23C3EE9F00B08413 /* Quote.swift */,
+				FF2F4B8023C3EEDD00B08413 /* QuotesManager.swift */,
+				FF2F4B8223C3EF2800B08413 /* Configuration.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +188,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2F4B6A23C3BBE800B08413 /* LaunchScreen.storyboard in Resources */,
+				FF2F4B8823C3F3EF00B08413 /* alma-negra.png in Resources */,
 				FF2F4B6723C3BBE800B08413 /* Assets.xcassets in Resources */,
 				FF2F4B6523C3BBE100B08413 /* Main.storyboard in Resources */,
+				FF2F4B8C23C3FF2D00B08413 /* quotes.json in Resources */,
+				FF2F4B8A23C3F3EF00B08413 /* seu-madruga.png in Resources */,
+				FF2F4B8B23C3F3EF00B08413 /* chapolin-colorado.png in Resources */,
+				FF2F4B8923C3F3EF00B08413 /* kiko.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF2F4B6223C3BBE100B08413 /* ViewController.swift in Sources */,
+				FF2F4B7523C3E8A800B08413 /* QuotesViewController.swift in Sources */,
 				FF2F4B5E23C3BBE100B08413 /* AppDelegate.swift in Sources */,
+				FF2F4B7923C3E93800B08413 /* ViewController.swift in Sources */,
+				FF2F4B7B23C3E96400B08413 /* SettingsViewController.swift in Sources */,
+				FF2F4B7F23C3EE9F00B08413 /* Quote.swift in Sources */,
+				FF2F4B8123C3EEDD00B08413 /* QuotesManager.swift in Sources */,
+				FF2F4B8323C3EF2800B08413 /* Configuration.swift in Sources */,
 				FF2F4B6023C3BBE100B08413 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dobigaster.FrasesChaves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dobigaster.FrasesChaves;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
