@@ -23,6 +23,7 @@
 		FF2F4B8A23C3F3EF00B08413 /* seu-madruga.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B8623C3F3EF00B08413 /* seu-madruga.png */; };
 		FF2F4B8B23C3F3EF00B08413 /* chapolin-colorado.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B8723C3F3EF00B08413 /* chapolin-colorado.png */; };
 		FF2F4B8C23C3FF2D00B08413 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B7223C3C60F00B08413 /* quotes.json */; };
+		FF2F4B8E23C5F73500B08413 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF2F4B8D23C5F73500B08413 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FF2F4B8523C3F3EF00B08413 /* kiko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiko.png; path = ../../../../../Documents/images_projects/kiko.png; sourceTree = "<group>"; };
 		FF2F4B8623C3F3EF00B08413 /* seu-madruga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "seu-madruga.png"; path = "../../../../../Documents/images_projects/seu-madruga.png"; sourceTree = "<group>"; };
 		FF2F4B8723C3F3EF00B08413 /* chapolin-colorado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chapolin-colorado.png"; path = "../../../../../Documents/images_projects/chapolin-colorado.png"; sourceTree = "<group>"; };
+		FF2F4B8D23C5F73500B08413 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Controllers/Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				FF2F4B7623C3E8B400B08413 /* Controllers */,
 				FF2F4B7D23C3EE8000B08413 /* Models */,
 				FF2F4B6623C3BBE800B08413 /* Assets.xcassets */,
+				FF2F4B8D23C5F73500B08413 /* Settings.bundle */,
 				FF2F4B6B23C3BBE800B08413 /* Info.plist */,
 			);
 			path = FrasesChaves;
@@ -194,6 +197,7 @@
 				FF2F4B8C23C3FF2D00B08413 /* quotes.json in Resources */,
 				FF2F4B8A23C3F3EF00B08413 /* seu-madruga.png in Resources */,
 				FF2F4B8B23C3F3EF00B08413 /* chapolin-colorado.png in Resources */,
+				FF2F4B8E23C5F73500B08413 /* Settings.bundle in Resources */,
 				FF2F4B8923C3F3EF00B08413 /* kiko.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
